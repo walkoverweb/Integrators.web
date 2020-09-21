@@ -1,0 +1,319 @@
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url("../fonts/proxima_nova/regular/ProximaNova-Regular.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/proxima_nova/regular/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/proxima_nova/regular/ProximaNova-Regular.otf") format("opentype"), /* Open Type Font */
+      url("../fonts/proxima_nova/regular/ProximaNova-Regular.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/proxima_nova/regular/ProximaNova-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../fonts/proxima_nova/regular/ProximaNova-Regular.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/proxima_nova/regular/ProximaNova-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ProximaNova-Black";
+    src: url("../fonts/proxima_nova/black/ProximaNovaBlack.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/proxima_nova/black/ProximaNovaBlack.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/proxima_nova/black/ProximaNovaBlack.otf") format("opentype"), /* Open Type Font */
+      url("../fonts/proxima_nova/black/ProximaNovaBlack.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/proxima_nova/black/ProximaNovaBlack.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/proxima_nova/black/ProximaNovaBlack.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/proxima_nova/black/ProximaNovaBlack.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: url("../fonts/proxima_nova/bold/ProximaNovaBold.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/proxima_nova/bold/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/proxima_nova/bold/ProximaNovaBold.otf") format("opentype"), /* Open Type Font */
+      url("../fonts/proxima_nova/bold/ProximaNovaBold.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/proxima_nova/bold/ProximaNovaBold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../fonts/proxima_nova/bold/ProximaNovaBold.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/proxima_nova/bold/ProximaNovaBold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova-Thin";
+  src: url("../fonts/proxima_nova/thin/ProximaNovaThin.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/proxima_nova/thin/ProximaNovaThin.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/proxima_nova/thin/ProximaNovaThin.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/proxima_nova/thin/ProximaNovaThin.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/proxima_nova/thin/ProximaNovaThin.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/proxima_nova/thin/ProximaNovaThin.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/proxima_nova/thin/ProximaNovaThin.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Samsung */
+@font-face {
+    font-family: "SamsungSharpSans-Bold";
+    src: url("../fonts/samsung-sharp/samsungsharpsans-bold.eot");/* IE9 Compat Modes */
+    src: url("../fonts/samsung-sharp/samsungsharpsans-bold.eot?#iefix") format("embedded-opentype"),/* IE6-IE8 */
+    url("../fonts/samsung-sharp/bold/samsungsharpsans-bold.otf") format("opentype"),/* Open Type Font */
+    url("../fonts/samsung-sharp/bold/samsungsharpsans-bold.svg") format("svg"),/* Legacy iOS */
+    url("../fonts/samsung-sharp/bold/samsungsharpsans-bold.ttf") format("truetype"),/* Safari, Android, iOS */
+    url("../fonts/samsung-sharp/bold/samsungsharpsans-bold.woff") format("woff"),/* Modern Browsers */
+    url("../fonts/samsung-sharp/bold/samsungsharpsans-bold.woff2") format("woff2");/* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SamsungSharpSans-Medium";
+    src: url("../fonts/samsung-sharp/medium/samsungsharpsans-medium.eot");/* IE9 Compat Modes */
+    src: url("../fonts/samsung-sharp/medium/samsungsharpsans-medium.eot?#iefix") format("embedded-opentype"),/* IE6-IE8 */
+    url("../fonts/samsung-sharp/medium/samsungsharpsans-medium.otf") format("opentype"),/* Open Type Font */
+    url("../fonts/samsung-sharp/medium/samsungsharpsans-medium.svg") format("svg"),/* Legacy iOS */
+    url("../fonts/samsung-sharp/medium/samsungsharpsans-medium.ttf") format("truetype"),/* Safari, Android, iOS */
+    url("../fonts/samsung-sharp/medium/samsungsharpsans-medium.woff") format("woff"),/* Modern Browsers */
+    url("../fonts/samsung-sharp/medium/samsungsharpsans-medium.woff2") format("woff2");/* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SamsungSharpSans";
+    src: url("../fonts/samsung-sharp/sans/samsungsharpsans.eot");/* IE9 Compat Modes */
+    src: url("../fonts/samsung-sharp/sans/samsungsharpsans.eot?#iefix") format("embedded-opentype"),/* IE6-IE8 */
+    url("../fonts/samsung-sharp/sans/samsungsharpsans.otf") format("opentype"),/* Open Type Font */
+    url("../fonts/samsung-sharp/sans/samsungsharpsans.svg") format("svg"),/* Legacy iOS */
+    url("../fonts/samsung-sharp/sans/samsungsharpsans.ttf") format("truetype"),/* Safari, Android, iOS */
+    url("../fonts/samsung-sharp/sans/samsungsharpsans.woff") format("woff"),/* Modern Browsers */
+    url("../fonts/samsung-sharp/sans/samsungsharpsans.woff2") format("woff2");/* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --heading-color: #232E3A;
+    --subheading-color: #312D2D;
+}
+
+body{
+	margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+/*  
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+} */
+h1,h2,h3,h4,h5,h5,p,ul,ol,figure{
+	margin: 0; 
+	padding: 0;
+}
+section{
+    display: flex;
+    min-height: 98vh;
+}
+/* Background-color */
+.bg-color{
+    background-color: #F6F1EA;
+}
+
+/* Common Style of section*/
+.section-top .section-heading{
+    font-size: 46px;
+    line-height: 1.3em;
+    color: var(--heading-color);
+    font-family: "SamsungSharpSans-Bold";
+}
+.section-top .section-desc{
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--heading-color);
+    font-family: "ProximaNova-Regular";
+}
+
+.section-content .section-subheading{
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--subheading-color);
+    font-family: "ProximaNova-Regular";
+}
+
+.custome-container{
+    max-width: 1440px;
+}
+
+@media only screen and (max-width: 992px) {
+    .section-top .section-heading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .section-top .section-desc {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+/* Header */
+.top-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top .3s;
+    z-index: 99;
+}
+.top-header .navbar-brand{
+    font: normal normal normal 24px/30px Helvetica Neue;
+    color: #312D2D;
+}
+.top-header .dropdown .dropdown-toggle:after{
+    content: '';
+    display: none;
+}
+.top-header .dropdown .dropdown-menu{
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 0px;
+    right: 0px;
+    left: inherit;
+    box-shadow: 5px 10px 23px #0000001C;
+}
+
+@media only screen and (max-width: 992px) {
+    .top-header .navbar-brand {
+        font: normal normal normal 18px/20px Helvetica Neue;
+        background-position: 0px 9px;
+    }
+    .navbar-toggler {
+        padding: .25rem .55rem;
+        font-size: .90rem;
+    }
+}
+
+/* Navbar */
+.navbar-brand {
+    background-image: url(../images/text-bg.svg);
+    background-position: -1px 18px;
+    background-repeat: no-repeat;
+}
+
+/* About */
+#integrators .section-content{
+    padding: 40px 10px 0px 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .custome-container{max-width:100%}
+    #integrators .section-top{margin-top: 110px;}
+    #integrators .section-content>div{text-align:center;}
+  }
+
+/* Help */
+#help .section-top{padding-bottom: 65px;}
+#help .form-box{
+    border: 2px solid #000000;
+    box-shadow: 5px 10px 23px #0000001C;
+    background-color: #ffffff;
+    width: 450px;
+    max-width: 550px;
+    height: 550px;
+    padding: 30px;
+    text-align: center;
+}
+#help .form-box .form-top-heading .form-check-label{
+    font-size: 20px;
+    line-height: 24px;
+    color:var(--heading-color);
+    font-family: "ProximaNova-Regular";
+}
+
+#help .section-content>div{
+    background-image: url("../images/Integrator.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -2px 100px;
+}
+@media only screen and (max-width: 992px) {
+    #help .form-box{
+        padding:16px;
+        height:400px;
+    }
+    #help .form-box .form-top-heading .form-check-label {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #help .section-top{
+        padding-top: 70px;
+    }
+    #reseller-typeform, #listof-product-typeform{
+        padding-bottom: 20px;
+    }
+}
+
+/* Benefits Box */
+#key-benefits .section-top{padding-bottom: 110px;}
+#key-benefits .benefits-box p{
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--heading-color);
+    font-family: "ProximaNova-Regular";
+}
+
+/* policy */
+#policy .section-content .nav-pills .nav-link {
+    border-radius: .25rem;
+    font-size: 18px;
+    color: #222222;
+    font-family: "ProximaNova-Regular";
+}
+#policy .section-content .nav-pills .nav-link.active {
+    background-color:transparent;
+    font-family: "ProximaNova-Bold";
+}
+
+/* policy */
+
+#policy .section-content .tab-content .top-box{
+    border: 1px solid #707070;
+    padding: 16px;
+}
+#policy .section-content .tab-content .bottom-box{
+    border: 1px solid #707070;
+    padding: 16px;
+}
+#policy .section-content .tab-content .tab-contnent-title{
+    font-size:48px;
+    color: #222222;
+    font-family: "SamsungSharpSans-Bold";
+}
+#policy .section-content .tab-content .text-row {
+    margin: 16px 0px;
+}
+#policy .section-content .tab-content .text-row>h5 {
+        color: #222;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 14px;
+}
+
+/* Button */
+
+.btn-danger{
+    color: #232E3A;
+    background-color: #FEB17B;
+    border-color: #FEB17B;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 2px;
+}
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger:hover{
+    color: #232E3A !important;
+    background-color: #FEB17B !important;
+    border-color: #FEB17B !important;
+}
