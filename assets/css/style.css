@@ -115,7 +115,8 @@ h1,h2,h3,h4,h5,h5,p,ul,ol,figure{
 }
 section{
     display: flex;
-    min-height: 98vh;
+    min-height: 96vh;
+    padding:70px 0px;
 }
 /* Background-color */
 .bg-color{
@@ -143,9 +144,11 @@ section{
     font-family: "ProximaNova-Regular";
 }
 
-/* .custome-container{
-    max-width: 1440px;
-} */
+.custome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 992px) {
     .section-top .section-heading {
@@ -156,6 +159,7 @@ section{
         font-size: 18px;
         line-height: 20px;
     }
+    section{padding:0px;}
 }
 /* Header */
 .top-header{
