@@ -137,15 +137,15 @@ section{
 }
 
 .section-content .section-subheading{
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     color: var(--subheading-color);
     font-family: "ProximaNova-Regular";
 }
 
-.custome-container{
+/* .custome-container{
     max-width: 1440px;
-}
+} */
 
 @media only screen and (max-width: 992px) {
     .section-top .section-heading {
