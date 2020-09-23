@@ -266,6 +266,14 @@ section{
     color: var(--heading-color);
     font-family: "ProximaNova-Regular";
 }
+#key-benefits .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f3ede6;
+}
 
 /* policy */
 #policy .section-content .nav-pills .nav-link {
