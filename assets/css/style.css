@@ -196,6 +196,9 @@ section{
         padding: .25rem .55rem;
         font-size: .90rem;
     }
+    .top-header{
+        background-color: #F6F1EA;
+    }
 }
 
 /* Navbar */
